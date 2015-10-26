@@ -67,57 +67,57 @@ clases Java para definir datagramas y sockets de datagrama.
   socket del receptor se enlaza a un número de puerto específico, para que el emisor pueda
   escribir este número de puerto en su datagrama como destino.
 
-   1. Compile y ejecute el código del ejemplo en una máquina usando “localhost” como
-      nombre de máquina. Por ejemplo se puede introducir el comando:
+     1. Compile y ejecute el código del ejemplo en una máquina usando “localhost” como
+        nombre de máquina. Por ejemplo se puede introducir el comando:
+     
+            `java Example1Sender localhost 12345 Hola`
    
-          `java Example1Sender localhost 12345 Hola`
- 
-      Ejecute los dos programas arrancando primero al receptor y después al emisor. 
-      El mensaje que se envíe no debería exceder la longitud máxima permitida que es 
-      de 10 caracteres.
-      Describa el resultado de la ejecución.
- 
-   2. Repita el ejercicio anterior utilizando dos máquinas distintas. 
- 
-   3. Vuelva a ejecutar las aplicaciones del apartado 1, esta vez ejecutando primero al
-      emisor y luego al receptor.
-      Describa y explique el resultado.
- 
-   4. Repita el apartado 1, esta vez mandando un mensaje de longitud mayor que la
-      máxima longitud permitida.
-      Describa y explique la salida producida.
- 
-   5. Añada código al proceso receptor de manera que el plazo máximo de bloqueo del
-      `receive` sea de cinco segundos. 
-      Lance el proceso receptor pero no el proceso emisor.
-      ¿Cuál es el resultado? Descríbalo y explíquelo.
- 
-   6. Modifique el código original de manera que el receptor ejecute indefinidamente un
-      bucle que reciba y muestre los datos recibidos. 
-      Compílelo y ejecutelo de la siguiente forma:
-        - lance al receptor
-        - ejecute el emisor enviando un mensaje “mensaje 1”
-        - en otra ventana, lanzar otra instancia del emisor, mandando un mensaje “mensaje 2”.
-      Describa y explique el resultado.
- 
-   7. Modifique el código original de manera que el emisor utilice el mismo socket para
-      enviar el mismo mensaje a dos receptores diferentes. 
-      Primero lance los dos receptores y después al emisor. 
-      ¿Cada receptor recibe el mensaje? Describa y explique el resultado.
- 
-   8. Modifique el código original de manera que el emisor utilice dos socket distintos
-      para enviar el mismo mensaje a dos receptores diferentes. 
-      Primero lance los dos receptores y después al emisor. 
-      ¿Cada receptor recibe el mensaje? 
-      Describa y explique el resultado.
- 
-   9. Modifique el código del último paso de modo que el emisor envíe de forma permanente,
-      suspendiéndose durante 3 segundos entre cada envío.
-      Modifique el receptor de manera que ejecute un bucle que repetidamente reciba datos
-      y luego los muestre.
-      Compile y ejecute los programas durante unos cuentos segundos antes de teminarlos
-      con “Ctrl-C”.
-      Describa y explique el resultado.
- 
-  10. Modifique el código original de modo que el emisor también reciba un mensaje del
-      receptor. Utilizar sólo un socket en cada proceso. 
+        Ejecute los dos programas arrancando primero al receptor y después al emisor. 
+        El mensaje que se envíe no debería exceder la longitud máxima permitida que es 
+        de 10 caracteres.
+        Describa el resultado de la ejecución.
+   
+     2. Repita el ejercicio anterior utilizando dos máquinas distintas. 
+   
+     3. Vuelva a ejecutar las aplicaciones del apartado 1, esta vez ejecutando primero al
+        emisor y luego al receptor.
+        Describa y explique el resultado.
+   
+     4. Repita el apartado 1, esta vez mandando un mensaje de longitud mayor que la
+        máxima longitud permitida.
+        Describa y explique la salida producida.
+   
+     5. Añada código al proceso receptor de manera que el plazo máximo de bloqueo del
+        `receive` sea de cinco segundos. 
+        Lance el proceso receptor pero no el proceso emisor.
+        ¿Cuál es el resultado? Descríbalo y explíquelo.
+   
+     6. Modifique el código original de manera que el receptor ejecute indefinidamente un
+        bucle que reciba y muestre los datos recibidos. 
+        Compílelo y ejecutelo de la siguiente forma:
+          - lance al receptor
+          - ejecute el emisor enviando un mensaje “mensaje 1”
+          - en otra ventana, lanzar otra instancia del emisor, mandando un mensaje “mensaje 2”.
+        Describa y explique el resultado.
+   
+     7. Modifique el código original de manera que el emisor utilice el mismo socket para
+        enviar el mismo mensaje a dos receptores diferentes. 
+        Primero lance los dos receptores y después al emisor. 
+        ¿Cada receptor recibe el mensaje? Describa y explique el resultado.
+   
+     8. Modifique el código original de manera que el emisor utilice dos socket distintos
+        para enviar el mismo mensaje a dos receptores diferentes. 
+        Primero lance los dos receptores y después al emisor. 
+        ¿Cada receptor recibe el mensaje? 
+        Describa y explique el resultado.
+   
+     9. Modifique el código del último paso de modo que el emisor envíe de forma permanente,
+        suspendiéndose durante 3 segundos entre cada envío.
+        Modifique el receptor de manera que ejecute un bucle que repetidamente reciba datos
+        y luego los muestre.
+        Compile y ejecute los programas durante unos cuentos segundos antes de teminarlos
+        con “Ctrl-C”.
+        Describa y explique el resultado.
+   
+    10. Modifique el código original de modo que el emisor también reciba un mensaje del
+        receptor. Utilizar sólo un socket en cada proceso. 
