@@ -7,5 +7,9 @@
     El mensaje que se envíe no debería exceder la longitud máxima permitida que es 
     de 10 caracteres.
     Describa el resultado de la ejecución.
-    
-    
+---------------------------------------------------------------------------------------------------------    
+    el receptor estaba esperando hasta que llege el mensaje y despues mandar mensaje a traves de ejecutar 
+    proceso emisor el receptor ha cogido el mensaje y ha escrito en la pantalla.
+----------------------------------------------------------------------------------------------------------    
+----------------------------------------------------------------------------------------------------------
+ 2. Repita el ejercicio anterior utilizando dos máquinas distintas. 
