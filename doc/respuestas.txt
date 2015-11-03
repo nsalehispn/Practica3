@@ -13,3 +13,14 @@
 ----------------------------------------------------------------------------------------------------------    
 ----------------------------------------------------------------------------------------------------------
  2. Repita el ejercicio anterior utilizando dos máquinas distintas. 
+-------------------------------------------------------------------
+Para hacer este paso no tenemos posibilidad .
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+3. Vuelva a ejecutar las aplicaciones del apartado 1, esta vez ejecutando primero al
+    emisor y luego al receptor.
+    Describa y explique el resultado.
+-------------------------------------------------------------------
+En este caso el operacion no tiene exito por que en el tiempo de mandar mensaje
+nadie estaba esperando y se pierde el mensaje
+-------------------------------------------------------------------
