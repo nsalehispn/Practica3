@@ -1,0 +1,11 @@
+1. Compile y ejecute el código del ejemplo en una máquina usando “localhost” como
+    nombre de máquina. Por ejemplo se puede introducir el comando:
+
+        `java Example1Sender localhost 12345 Hola`
+
+    Ejecute los dos programas arrancando primero al receptor y después al emisor. 
+    El mensaje que se envíe no debería exceder la longitud máxima permitida que es 
+    de 10 caracteres.
+    Describa el resultado de la ejecución.
+    
+    
