@@ -7,20 +7,35 @@
     El mensaje que se envíe no debería exceder la longitud máxima permitida que es 
     de 10 caracteres.
     Describa el resultado de la ejecución.
----------------------------------------------------------------------------------------------------------    
+--------------------------------------------    
     el receptor estaba esperando hasta que llege el mensaje y despues mandar mensaje a traves de ejecutar 
     proceso emisor el receptor ha cogido el mensaje y ha escrito en la pantalla.
-----------------------------------------------------------------------------------------------------------    
-----------------------------------------------------------------------------------------------------------
+
+********************************************************************************************
+
  2. Repita el ejercicio anterior utilizando dos máquinas distintas. 
--------------------------------------------------------------------
+---------------------------------------------
 Para hacer este paso no tenemos posibilidad .
--------------------------------------------------------------------
--------------------------------------------------------------------
+
+*********************************************************************************************
+
 3. Vuelva a ejecutar las aplicaciones del apartado 1, esta vez ejecutando primero al
     emisor y luego al receptor.
     Describa y explique el resultado.
--------------------------------------------------------------------
+-----------------------------------------------
 En este caso el operacion no tiene exito por que en el tiempo de mandar mensaje
-nadie estaba esperando y se pierde el mensaje
--------------------------------------------------------------------
+nadie estaba esperando y se pierde el mensaje.
+
+*********************************************************************************************
+
+4. Repita el apartado 1, esta vez mandando un mensaje de longitud mayor que la
+    máxima longitud permitida.
+    Describa y explique la salida producida.
+-----------------------------------------------    
+He mandado este vez un mensaje igual a este "how are you today?" y pensaba que 
+no realizara proceso de send y receive, pero el resultado era distinto y habia un mensaje 
+igula a este "how are yo" ,entonces podemos decir en este caso hasta 10 caracter que es maximom 
+se puede recibir.
+
+*********************************************************************************************
+
