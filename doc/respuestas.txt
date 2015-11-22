@@ -39,3 +39,23 @@ se puede recibir.
 
 *********************************************************************************************
 
+5. Añada código al proceso receptor de manera que el plazo máximo de bloqueo del
+    `receive` sea de cinco segundos. 
+    Lance el proceso receptor pero no el proceso emisor.
+    ¿Cuál es el resultado? Descríbalo y explíquelo.
+-------------------------------------------------
+Hemos añadido un parte codigo igual este " mySocket.setSoTimeout(5000);" y luego despues de compilar y ejecutar 
+bimos que el reciever despues lanzar estaba solo 5 segundo esperando y despues 5 segundo salio.
+
+*********************************************************************************************
+ 6. Modifique el código original de manera que el receptor ejecute indefinidamente un
+    bucle que reciba y muestre los datos recibidos. 
+    Compílelo y ejecutelo de la siguiente forma:
+      - lance al receptor
+      - ejecute el emisor enviando un mensaje “mensaje 1”
+      - en otra ventana, lanzar otra instancia del emisor, mandando un mensaje “mensaje 2”.
+    Describa y explique el resultado.
+---------------------------------------------------
+
+*********************************************************************************************
+*********************************************************************************************
