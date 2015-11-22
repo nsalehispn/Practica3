@@ -32,7 +32,7 @@ nadie estaba esperando y se pierde el mensaje.
     máxima longitud permitida.
     Describa y explique la salida producida.
 -----------------------------------------------    
-He mandado este vez un mensaje igual a este "how are you today?" y pensaba que 
+Hemos mandado este vez un mensaje igual a este "how are you today?" y pensaba que 
 no realizara proceso de send y receive, pero el resultado era distinto y habia un mensaje 
 igula a este "how are yo" ,entonces podemos decir en este caso hasta 10 caracter que es maximom 
 se puede recibir.
@@ -45,9 +45,10 @@ se puede recibir.
     ¿Cuál es el resultado? Descríbalo y explíquelo.
 -------------------------------------------------
 Hemos añadido un parte codigo igual este " mySocket.setSoTimeout(5000);" y luego despues de compilar y ejecutar 
-bimos que el reciever despues lanzar estaba solo 5 segundo esperando y despues 5 segundo salio.
+vimos que el reciever despues lanzar estaba solo 5 segundo esperando y despues 5 segundo salio.
 
 *********************************************************************************************
+
  6. Modifique el código original de manera que el receptor ejecute indefinidamente un
     bucle que reciba y muestre los datos recibidos. 
     Compílelo y ejecutelo de la siguiente forma:
@@ -56,6 +57,8 @@ bimos que el reciever despues lanzar estaba solo 5 segundo esperando y despues 5
       - en otra ventana, lanzar otra instancia del emisor, mandando un mensaje “mensaje 2”.
     Describa y explique el resultado.
 ---------------------------------------------------
+Hemos añadido un while(true)  para que parte de receive funcione indefinitivamente.
+y ejecutando vimos que el receiver puede aceptar iterativamente los mensajes.
 
 *********************************************************************************************
 *********************************************************************************************
