@@ -61,4 +61,14 @@ Hemos añadido un while(true)  para que parte de receive funcione indefinitivame
 y ejecutando vimos que el receiver puede aceptar iterativamente los mensajes.
 
 *********************************************************************************************
+
+ 7. Modifique el código original de manera que el emisor utilice el mismo socket para
+    enviar el mismo mensaje a dos receptores diferentes. 
+    Primero lance los dos receptores y después al emisor. 
+    ¿Cada receptor recibe el mensaje? Describa y explique el resultado.
+---------------------------------------------------
+Hemos creado dos fichero como receiver y un fichero como sender y ejecutando,vimos que utilizando 
+mismo puerta de mismo equipo no sirve entonces hay que utlizar dos puerta distinto para cada reseiver
+y asi mosmo adaptar sender para que mande mismo mensaje a dos puertas distintos.
+
 *********************************************************************************************
