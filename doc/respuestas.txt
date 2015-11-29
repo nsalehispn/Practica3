@@ -85,4 +85,15 @@ Hay que crear dos socketes y tambien porque tenemos dos receiver hay que utiliza
 puertas distintas.
 
 *********************************************************************************************
-    
+    9. Modifique el código del último paso de modo que el emisor envíe de forma permanente,
+    suspendiéndose durante 3 segundos entre cada envío.
+    Modifique el receptor de manera que ejecute un bucle que repetidamente reciba datos
+    y luego los muestre.
+    Compile y ejecute los programas durante unos cuentos segundos antes de teminarlos
+    con “Ctrl-C”.
+    Describa y explique el resultado.
+--------------------------------------------------
+En este caso el mensajes se reciva y se muestra repetitamente y por que hay tres segundo tiempo 
+no se escribirara los mensajes encima de otro y asi se reciben los mensajes correcto.
+
+*********************************************************************************************
