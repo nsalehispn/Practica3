@@ -93,7 +93,24 @@ puertas distintas.
     con “Ctrl-C”.
     Describa y explique el resultado.
 --------------------------------------------------
-En este caso el mensajes se reciva y se muestra repetitamente y por que hay tres segundo tiempo 
-no se escribirara los mensajes encima de otro y asi se reciben los mensajes correcto.
+En este caso el mensaje se recive y se muestra repetitamente y por que hay tres segundos tiempo 
+no se escribira un mensaje encima de otro y asi se reciben los mensajes en forma correcta.
 
+*********************************************************************************************
+10. Modifique el código original de modo que el emisor también reciba un mensaje del
+    receptor. Utilizar sólo un socket en cada proceso. 
+    
+--------------------------------------------------    
+Quando usamos una porta sale un error como este 
+
+java.net.BindException: Address already in use
+        at java.net.PlainDatagramSocketImpl.bind0(Native Method)
+        at java.net.AbstractPlainDatagramSocketImpl.bind(AbstractPlainDatagramSocketImpl.java:96)
+        at java.net.DatagramSocket.bind(DatagramSocket.java:396)
+        at java.net.DatagramSocket.<init>(DatagramSocket.java:251)
+        at java.net.DatagramSocket.<init>(DatagramSocket.java:304)
+        at java.net.DatagramSocket.<init>(DatagramSocket.java:276)
+        at Example1Sender10.main(Example1Sender10.java:21)
+
+Entonces para hacerlo bien hay que usar otro puerta para recibir.         
 *********************************************************************************************
